@@ -1,0 +1,152 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": "Fundoo Notes App",
+        "description": "Fundoo Notes CLI "
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "CLI",
+            "description": "Creating user......."
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users": {
+            "post": {
+                "tags": ["user"],
+                "description": "New User registration",
+                "parameters": [
+                    {
+                        "name": "Create User",
+                        "in": "body",
+                        "description": "User",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New User Created Successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },"/users/login": {
+            "post": {
+                "tags": ["user"],
+                "description": "Validate Login Details",
+                "parameters": [
+                    {
+                        "name": "User Login",
+                        "in": "body",
+                        "description": "Login Details",
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },"/users/forgetPwd": {
+            "post": {
+                "tags": ["user"],
+                "description": "Forget Password ",
+                "parameters": [
+                    {
+                        "name": "Forget login password",
+                        "in": "body",
+                        "description": "Email Id for Password reset",
+                        "schema": {
+                            "$ref": "#/definitions/ForgotPwd"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": [
+                    {
+                        "201": {
+                            "description": "User Fetched",
+                            "content":"application/json"
+                        },
+                        "400": {
+                            "description":"Invalid User Id"
+                        },
+                        "500": {
+                            "description": "Internal Server Error"
+                        }
+                    }
+                ]
+            }
+        }
+       
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "FirstName": {
+                    "type": "string"
+                },
+                "LastName": {
+                    "type": "string"
+                },
+                "EmailId": {
+                    "type": "string"
+                },"Password": {
+                    "type": "string"
+                }
+            }
+        },
+        "login":{
+          "type": "object",
+                "properties": {
+                    "EmailId": {
+                        "type": "string"
+                    },"Password": {
+                        "type": "string"
+                    }
+                }
+  
+        },
+        "ForgotPwd":{
+            "type": "object",
+                  "properties": {
+                      "EmailId":{
+                          "type": "string"
+                    }
+                }
+    
+        }      
+    }
+}
+ 

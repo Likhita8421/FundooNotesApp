@@ -1,0 +1,171 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T03:47:17.649Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T03:47:21.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T03:50:30.150Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T03:50:39.230Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T04:07:06.973Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:276:19)","syscall":"querySrv","timestamp":"2022-09-14T04:07:07.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T04:07:41.910Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T04:07:46.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T04:24:45.161Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T04:24:48.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T04:28:22.510Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T04:28:25.588Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-14T04:37:02.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T04:38:20.521Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T04:38:23.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T04:38:52.638Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T04:38:55.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T04:43:52.734Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T04:43:55.788Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-14T04:51:12.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T10:10:22.934Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T10:10:27.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T10:13:12.290Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T10:13:15.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T10:13:32.982Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T10:13:40.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T10:24:56.599Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T10:25:00.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T10:52:13.094Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T10:52:16.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T10:54:26.917Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T10:54:30.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:00:43.587Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:00:46.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:06:38.563Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:06:41.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:17:22.920Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:17:28.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:19:25.785Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:19:29.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:23:54.096Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:23:57.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:25:26.794Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:25:31.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:26:57.452Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:27:00.830Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:29:44.497Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:29:48.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:33:15.321Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:276:19)","syscall":"querySrv","timestamp":"2022-09-14T11:33:15.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:34:04.634Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:34:07.310Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:37:10.011Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:37:13.968Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:39:12.460Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:39:15.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:39:57.799Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:40:05.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:41:11.807Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:41:14.702Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:42:50.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:42:59.912Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:43:02.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:44:59.672Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:45:02.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:51:00.255Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:51:03.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T11:58:49.637Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T11:58:52.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:00:13.219Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:00:15.896Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:00:49.958Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:00:52.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:02:36.990Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:02:42.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:07:53.628Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:07:56.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:08:34.189Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:08:36.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:09:57.827Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:10:02.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:12:53.791Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:12:57.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:16:43.438Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:16:46.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:26:27.468Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:26:30.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:26:56.142Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:26:59.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T12:27:34.736Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T12:27:37.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T14:11:12.302Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T14:11:15.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T14:19:22.622Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T14:19:25.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T14:20:37.509Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T14:20:42.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T14:20:51.633Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T14:20:54.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T14:21:58.376Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T14:22:01.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T17:55:26.332Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:276:19)","syscall":"querySrv","timestamp":"2022-09-14T17:55:26.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:01:15.084Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:01:17.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:01:42.843Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:01:45.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:02:51.512Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:02:54.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:03:10.052Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:03:12.898Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-14T18:04:47.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:09:07.671Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:09:10.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:24:20.895Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:24:26.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:27:28.561Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:27:31.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T18:27:37.012Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T18:27:40.809Z"}

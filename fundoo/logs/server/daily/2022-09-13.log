@@ -1,0 +1,65 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T04:17:53.471Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T04:17:56.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:17:17.386Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:17:21.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:18:08.296Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:18:11.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:30:32.183Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:30:35.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:32:07.166Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:32:10.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:34:02.356Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:34:07.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:34:39.114Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:34:42.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:35:24.644Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:35:28.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:36:07.745Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:36:11.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:40:13.753Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:40:17.285Z"}
+error: 
+      status - 401
+      message - Authorization token is Incorrect 
+      url - /api/v1/users/resetPwd/token 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-09-13T05:41:28.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:42:33.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T06:46:58.979Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T06:47:02.396Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 43
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJhc2hpc2giLCJMYXN0TmFtZSI6ImdhamJoaXllIiwiRW1haWxJZCI6ImFzaGlzaEBnbWFpbC5jb20iLCJpZCI6IjYzMjAyODczYmJkMWZmMzNhYzg3NWNjNCIsImlhdCI6MTY2MzA1MTk0NH0.lGRVgQt3OvUghLHvV5-xjXLOwkFfJXWE_fI6nGIElRc 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-13T06:53:00.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T06:57:00.513Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T06:57:03.641Z"}
+error: 
+      status - 401
+      message - Authorization token is Incorrect 
+      url - /api/v1/users/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJhc2hpc2giLCJMYXN0TmFtZSI6ImdhamJoaXllIiwiRW1haWxJZCI6ImFzaGlzaEBnbWFpbC5jb20iLCJpZCI6IjYzMjAyODczYmJkMWZmMzNhYzg3NWNjNCIsImlhdCI6MTY2MzA1MjE1N30.r1Kr8L9RlkqO-yPaEQNGg2j5yBJz8N_SuBEaPx2Rkug 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-09-13T06:57:46.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T06:58:41.545Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T06:58:44.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T06:59:11.956Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T06:59:15.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T07:01:13.148Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T07:01:16.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T07:19:54.113Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T07:19:58.749Z"}

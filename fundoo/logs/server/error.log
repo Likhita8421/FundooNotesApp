@@ -1,0 +1,1337 @@
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-08-25T11:34:59.608Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-08-25T11:37:39.982Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-08-25T11:41:27.523Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-25T12:06:20.227Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/Users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-26T18:16:29.757Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:23:31 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":255981},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18952527,"external":20434095,"heapTotal":92581888,"heapUsed":53037952,"rss":128176128},"pid":13044,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T02:53:31.053Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:29:05 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256316},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18936449,"external":20415613,"heapTotal":90488832,"heapUsed":49262416,"rss":126251008},"pid":9024,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T02:59:05.521Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:29:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256340},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18926597,"external":20405761,"heapTotal":90222592,"heapUsed":48830536,"rss":126955520},"pid":11728,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T02:59:29.673Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:31:07 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256438},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18981256,"external":20460420,"heapTotal":89948160,"heapUsed":49735632,"rss":125779968},"pid":12400,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:01:07.526Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:31:37 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256468},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18981256,"external":20460420,"heapTotal":89948160,"heapUsed":49438304,"rss":125796352},"pid":9464,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:01:37.861Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:32:07 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256498},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18572431,"external":20051595,"heapTotal":90472448,"heapUsed":47486688,"rss":126652416},"pid":8136,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:02:07.676Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:32:24 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256514},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18572431,"external":20051595,"heapTotal":90210304,"heapUsed":47290056,"rss":126853120},"pid":8796,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:02:24.039Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:34:19 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256630},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18981256,"external":20460420,"heapTotal":90210304,"heapUsed":49914936,"rss":127053824},"pid":11568,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:04:19.922Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 08:35:02 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":256673},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18973064,"external":20452228,"heapTotal":89686016,"heapUsed":49568928,"rss":125583360},"pid":4476,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:05:02.674Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Likhita_FundooNotes.users index: EmailId_1 dup key: { EmailId: "xyz@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-29T03:06:06.692Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:388:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\hp\Fundoo-Notes\fundoo\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T03:06:06.711Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 09:06:54 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":258584},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19301169,"external":20780333,"heapTotal":90685440,"heapUsed":56672680,"rss":126418944},"pid":10596,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:36:54.056Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 09:06:56 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":258587},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19275630,"external":20754794,"heapTotal":90947584,"heapUsed":56645360,"rss":126525440},"pid":4384,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:36:56.747Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T03:42:27.054Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 09:17:45 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":259235},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19301169,"external":20780333,"heapTotal":90947584,"heapUsed":56683608,"rss":128020480},"pid":14960,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:47:45.015Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 09:19:27 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":259338},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19294537,"external":20773701,"heapTotal":91209728,"heapUsed":56466784,"rss":128004096},"pid":14772,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:49:27.906Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 09:19:50 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":259360},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19375365,"external":20854529,"heapTotal":90685440,"heapUsed":58081960,"rss":126369792},"pid":11236,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:49:50.056Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 09:20:04 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":259375},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19340532,"external":20819696,"heapTotal":90423296,"heapUsed":57125744,"rss":127909888},"pid":6628,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:50:04.657Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Aug 29 2022 09:20:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":259384},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18346614,"external":19825778,"heapTotal":89956352,"heapUsed":45993280,"rss":126738432},"pid":13588,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-08-29T03:50:13.992Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Likhita_FundooNotes.users index: EmailId_1 dup key: { EmailId: "lhs@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-29T03:52:42.916Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:388:5)
+    at ServerResponse.writeHead (node:_http_server:280:11)
+    at ServerResponse.writeHead (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:271:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\hp\Fundoo-Notes\fundoo\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T03:52:42.942Z"}
+error: 
+    status - 500 
+    message - Error: User is already Exist
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/user.service.js:11:11)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T04:01:05.566Z"}
+error: 
+    status - 500 
+    message - ValidationError: "EmailId" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T04:04:16.467Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (C:\Users\hp\Fundoo-Notes\fundoo\src\validators\/user.validator.js:13:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T04:06:17.107Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 50
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T11:24:49.507Z"}
+<<<<<<< Updated upstream
+error: 
+    status - 500 
+    message - ValidationError: "Discreption" is required 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:26:16.715Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Discreption" is required 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:26:27.452Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Description: Path `Description` is required.
+    at model.Document.invalidate (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:26:41.714Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Discreption" is required 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:27:03.100Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/6314ee8eaa2f3e1b8cdce8d2 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2022-09-05T02:32:28.945Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-05T02:53:00.949Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\middlewares\/auth.middleware.js:22:13)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/6314ee8eaa2f3e1b8cdce8d2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-05T04:07:52.436Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\middlewares\/auth.middleware.js:22:13)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/630996f580faba2a4889a784 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-05T04:14:37.528Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" length must be at least 4 characters long 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-05T11:41:58.715Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\middlewares\/auth.middleware.js:22:13)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-05T11:42:08.626Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-09-05T15:50:05.016Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+=======
+<<<<<<< HEAD
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (C:\Users\hp\Fundoo-Notes\fundoo\src\routes\/index.js:15:23)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:32:32)
+>>>>>>> Stashed changes
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Sep 05 2022 21:34:55 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73913},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331930,"external":19811821,"heapTotal":90742784,"heapUsed":58134488,"rss":130162688},"pid":7564,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-09-05T16:04:55.200Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "Title" length must be at least 4 characters long 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-05T16:05:55.031Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at Server.listen (node:net:1558:7)
+    at Function.listen (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.newLoader [as .js] (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {"date":"Mon Sep 05 2022 21:47:22 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74660},"process":{"argv":["node","C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\Fundoo-Notes\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755439,"external":20234603,"heapTotal":89432064,"heapUsed":49182304,"rss":126169088},"pid":11476,"uid":null,"version":"v18.4.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1422:16)\n    at listenInCluster (node:net:1470:12)\n    at Server.listen (node:net:1558:7)\n    at Function.listen (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._compile (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)","timestamp":"2022-09-05T16:17:22.271Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1422,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1470,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1558,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\hp\\Fundoo-Notes\\fundoo\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-06T02:40:57.073Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userdetails is not defined
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:5:40)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:4:25)
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:13:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T09:03:05.837Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-07T09:05:15.854Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-07T10:45:59.657Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:04:44.357Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:05:04.272Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:08:44.550Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:09:30.507Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+      method - GET 
+      IP - ::1
+<<<<<<< Updated upstream
+     {"timestamp":"2022-09-07T11:09:49.224Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:09:56.419Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:11:06.728Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:11:53.966Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:13:12.364Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:16:42.687Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:17:06.807Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:20:15.948Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:39:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:22:21.974Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:39:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:40:14.351Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:40:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:41:30.977Z"}
+=======
+     {"timestamp":"2022-09-04T18:29:51.043Z"}
+=======
+error: 
+    status - 500 
+    message - ValidationError: "Discreption" is required 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:26:16.715Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Discreption" is required 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:26:27.452Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Description: Path `Description` is required.
+    at model.Document.invalidate (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:26:41.714Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Discreption" is required 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-04T19:27:03.100Z"}
+>>>>>>> 34d734c (changes made)
+>>>>>>> Stashed changes
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:25)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:02:27.102Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:05:24.737Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:06:42.197Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:32)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:08:07.653Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:51:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:09:15.126Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:41:30)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:39:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:13:25.655Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: [Function: id], userId: [Function: id] }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T02:36:49.749Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "obj" to Document() must be an object, got paraj@gmail.com
+    at model.Document (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:100:11)
+    at model.Model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:13:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-08T08:48:05.185Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "obj" to Document() must be an object, got paraj@gmail.com
+    at model.Document (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:100:11)
+    at model.Model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:13:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-08T08:48:25.958Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee4$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:26)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:34:25)
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:90:23)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6319ac71f276ce3c84ccf22e 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-08T08:50:15.860Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Boolean failed for value "Infinity" (type number) at path "isArchived"
+    at model.Query.exec (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T09:34:57.814Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:55:23)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:52:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-12T12:08:30.461Z"}
+error: 
+      status - 401
+      message - Authorization token is Incorrect 
+      url - /api/v1/users/resetPwd/token 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-09-13T05:41:28.458Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 43
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJhc2hpc2giLCJMYXN0TmFtZSI6ImdhamJoaXllIiwiRW1haWxJZCI6ImFzaGlzaEBnbWFpbC5jb20iLCJpZCI6IjYzMjAyODczYmJkMWZmMzNhYzg3NWNjNCIsImlhdCI6MTY2MzA1MTk0NH0.lGRVgQt3OvUghLHvV5-xjXLOwkFfJXWE_fI6nGIElRc 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-13T06:53:00.696Z"}
+error: 
+      status - 401
+      message - Authorization token is Incorrect 
+      url - /api/v1/users/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJhc2hpc2giLCJMYXN0TmFtZSI6ImdhamJoaXllIiwiRW1haWxJZCI6ImFzaGlzaEBnbWFpbC5jb20iLCJpZCI6IjYzMjAyODczYmJkMWZmMzNhYzg3NWNjNCIsImlhdCI6MTY2MzA1MjE1N30.r1Kr8L9RlkqO-yPaEQNGg2j5yBJz8N_SuBEaPx2Rkug 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-09-13T06:57:46.423Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:276:19)","syscall":"querySrv","timestamp":"2022-09-14T04:07:07.000Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-14T04:37:02.844Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-14T04:51:12.114Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:276:19)","syscall":"querySrv","timestamp":"2022-09-14T11:33:15.336Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:276:19)","syscall":"querySrv","timestamp":"2022-09-14T17:55:26.347Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:537:28)
+    at IncomingMessage.emit (node:domain:482:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-14T18:04:47.510Z"}

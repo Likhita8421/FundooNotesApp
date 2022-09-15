@@ -1,0 +1,9 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-06T02:36:51.649Z"}
+info: Connected to the database. {"timestamp":"2022-09-06T02:36:54.056Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-06T02:40:57.073Z"}

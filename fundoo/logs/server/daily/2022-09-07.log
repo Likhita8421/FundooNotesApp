@@ -1,0 +1,651 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:04:44.316Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:04:46.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:50:56.499Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:50:59.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:54:36.363Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:54:39.283Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:55:10.411Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:55:12.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:56:39.130Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:56:42.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:58:04.812Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:58:07.689Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userdetails is not defined
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:5:40)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:4:25)
+    at _callee$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:13:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T09:03:05.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:04:40.256Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:04:43.499Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-07T09:05:15.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:26:41.824Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:26:46.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:26:51.022Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:27:00.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:33:53.091Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:33:56.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:34:29.508Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:34:32.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:38:04.762Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:38:07.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:38:24.943Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:38:27.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:39:17.293Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:39:19.875Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:39:27.856Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:39:30.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:39:41.661Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:39:44.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:39:48.778Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:39:52.309Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T09:41:33.800Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T09:41:36.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:12:30.865Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:12:33.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:33:19.238Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:33:26.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:33:30.864Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:33:33.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:35:36.531Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:35:41.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:36:01.082Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:36:03.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:38:29.163Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:38:31.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:38:39.857Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:38:42.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:39:05.351Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:39:10.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:40:46.486Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:40:49.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:43:24.382Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:43:26.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:43:40.897Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:43:43.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:43:50.728Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:43:53.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:44:47.377Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:44:49.860Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-07T10:45:59.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:04:29.644Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:04:32.516Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:04:44.357Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:05:04.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:07:49.544Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:07:55.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:08:22.559Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:08:26.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:08:31.272Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:08:35.696Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:08:44.550Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:09:30.507Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-07T11:09:49.224Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:35)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:09:56.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:10:50.285Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:10:53.407Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:11:06.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:11:47.509Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:11:50.103Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:11:53.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:12:10.343Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:12:13.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:13:05.515Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:13:08.330Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:35:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:33:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:13:12.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:13:32.277Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:13:34.702Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:16:30.332Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:16:32.800Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:16:42.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:17:00.005Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:17:02.388Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:17:06.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:20:04.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:20:08.585Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:20:11.143Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:20:15.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:20:30.500Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:20:32.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:21:26.494Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:21:29.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:22:16.276Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:22:18.838Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:39:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:22:21.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:23:54.151Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:23:56.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:24:58.420Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:25:01.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:36:58.583Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:37:03.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:38:11.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:39:37.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:39:40.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:39:50.218Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:39:54.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:40:03.205Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:40:09.630Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:39:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:37:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:40:14.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:41:18.898Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:41:26.422Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:40:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:38:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:41:30.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T12:29:15.119Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T12:29:17.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T16:22:26.563Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T16:22:35.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:01:40.511Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:01:44.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:02:23.130Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:25)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:02:27.102Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:02:28.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:05:16.557Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:05:20.100Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:05:24.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:06:33.946Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:06:38.132Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:06:42.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:07:01.863Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:07:05.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:08:01.836Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:08:05.593Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:53:32)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:08:07.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:09:06.538Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:09:10.719Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:51:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:50:26)
+    at _callee6$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:104:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:09:15.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:12:37.574Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:12:41.261Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:41:30)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:39:22)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:32:36)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T17:13:25.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:14:37.467Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:14:41.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:15:29.858Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:15:33.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:16:01.425Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:16:04.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:16:36.748Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:16:41.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:19:08.306Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:19:12.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:21:18.459Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:21:21.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:21:25.838Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:21:29.944Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:22:41.096Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:22:44.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:28:22.846Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T17:28:26.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T17:41:37.307Z"}

@@ -1,0 +1,137 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T01:58:58.798Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T01:59:01.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:02:03.141Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:02:05.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:36:47.624Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: [Function: id], userId: [Function: id] }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T02:36:49.749Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:36:50.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:37:10.913Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:37:13.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:37:48.155Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:37:50.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:38:22.665Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:38:25.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:38:47.942Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:38:50.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:41:50.529Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:41:53.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:42:02.098Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:42:04.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:42:20.886Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:42:23.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:42:48.265Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:42:50.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:43:29.506Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:43:31.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T08:47:35.809Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T08:47:39.997Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "obj" to Document() must be an object, got paraj@gmail.com
+    at model.Document (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:100:11)
+    at model.Model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:13:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-08T08:48:05.185Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "obj" to Document() must be an object, got paraj@gmail.com
+    at model.Document (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\document.js:100:11)
+    at model.Model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:13:27)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-08T08:48:25.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T08:48:42.568Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T08:48:45.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T08:50:00.398Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T08:50:05.914Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee4$ (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:36:26)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNotes (C:\Users\hp\Fundoo-Notes\fundoo\src\services\/notes.services.js:34:25)
+    at _callee5$ (C:\Users\hp\Fundoo-Notes\fundoo\src\controllers\/notes.controllers.js:90:23)
+    at tryCatch (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/6319ac71f276ce3c84ccf22e 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-08T08:50:15.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T08:50:31.078Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T08:50:34.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T09:09:14.476Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T09:09:17.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T09:33:05.275Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T09:33:08.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T09:33:52.509Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T09:33:56.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T09:34:43.680Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T09:34:47.210Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Boolean failed for value "Infinity" (type number) at path "isArchived"
+    at model.Query.exec (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\Fundoo-Notes\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/6318774a5d8cfe24c4c7cd0d/archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T09:34:57.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T09:35:16.220Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T09:35:22.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T09:35:33.984Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T09:35:38.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T09:36:37.261Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T09:36:40.640Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T14:58:18.033Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T14:58:20.988Z"}

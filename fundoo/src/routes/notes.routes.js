@@ -14,7 +14,7 @@ router.post('',noteValidator,userAuth, noteController.newNotes);
 //route to get a note by  id
 router.get('/:_id',userAuth, noteController.getNotes);
 
-//route to update a note by  id
+//route to update a note by id
 router.put('/:_id',userAuth, noteController.updateNotes);
 
 //route to delete a user by id

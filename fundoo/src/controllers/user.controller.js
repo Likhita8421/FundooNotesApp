@@ -61,12 +61,12 @@ export const forgetPassword = async (req, res, next) => {
   try {
     console.log("user credential controller=======> ", req.body)
     const data = await UserService.forgetPassword(req.body);
-    //console.log("Login Response in controller=======>", data)
+    console.log("Login Response in controller=======>", data)
 
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       //data: data,
-      message: 'Reset password URL sent successfully'
+      message: 'Reset password link sent successfully'
     });
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
@@ -85,9 +85,8 @@ export const forgetPassword = async (req, res, next) => {
  */
 export const resetPassword = async (req, res, next) => {
   try {
-    //console.log("user credential controller=======> ", req.body)
+    console.log("req. body======>",req.body)
     const data = await UserService.resetPassword(req.body);
-    //console.log("Login Response in controller=======>", data)
 
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,

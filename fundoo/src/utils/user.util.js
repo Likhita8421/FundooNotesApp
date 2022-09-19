@@ -11,7 +11,7 @@ oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN })
 
 export async function sendMail(email,token) 
     {
-        console.log("email====>", email)
+        //console.log("email====>", email)
         try {
             const accessToken = await oAuth2Client.getAccessToken()
 
@@ -36,9 +36,9 @@ export async function sendMail(email,token)
             };
 
             const result = await transport.sendMail(mailOptions)
-            console.log("result====>", result)
+            //console.log("result====>", result)
 
-            //return token;
+            return token;
 
         } catch (error) {
             return error

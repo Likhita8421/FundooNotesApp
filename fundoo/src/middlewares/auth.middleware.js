@@ -54,7 +54,7 @@ export const userAuth = async (req, res, next) => {
  export const resetAuth = async (req, res, next) => {
   try {
     let bearerToken = req.params.token;
-
+console.log("bearer token====> ", bearerToken)
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -66,11 +66,11 @@ export const userAuth = async (req, res, next) => {
           res.status(HttpStatus.UNAUTHORIZED).json({
             code: HttpStatus.UNAUTHORIZED,
             message: 'Authorization token is Incorrect'
-          //code: HttpStatus.UNAUTHORIZED,
-          //message: 'Authorization token is Incorrect' 
+          
         });
       }else {
         req.body.userId = data.EmailId
+        console.log("request body======>", req.body)
         next();
       }
     });

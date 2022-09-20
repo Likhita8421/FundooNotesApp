@@ -1,4 +1,4 @@
- import HttpStatus from 'http-status-codes';
+import HttpStatus from 'http-status-codes';
 import * as noteService from '../services/notes.services';
 
 
@@ -48,7 +48,7 @@ export const getNotes = async (req, res, next) => {
  */
 export const newNotes = async (req, res, next) => {
   try {
-    console.log("data====>",req.body)
+    console.log("data====>", req.body)
     const data = await noteService.newNotes(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,

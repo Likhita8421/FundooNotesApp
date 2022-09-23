@@ -51,22 +51,22 @@ describe('User APIs Test', () => {
         });
     });
 
-    // //USER Registration with invalid details
-    // it('given new user when added should return status 400', (done) => {
-    //   const userdetails = {
-    //     FirstName: 123,
-    //     LastName: '12',
-    //     EmailId: 'pw@.com',
-    //     Password: 'wk123'
-    //   };
-    //   request(app)
-    //     .post('/api/v1/users')
-    //     .send(userdetails)
-    //     .end((err, res) => {
-    //       expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
-    //       done();
-    //     });
-    // });
+    //USER Registration with invalid details
+    it('given new user when added should return status 400', (done) => {
+      const userdetails = {
+        FirstName: 123,
+        LastName: '12',
+        EmailId: 'pw@.com',
+        Password: 'wk123'
+      };
+      request(app)
+        .post('/api/v1/users')
+        .send(userdetails)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
+          done();
+        });
+    });
   });
 
   //User Login with valid login details

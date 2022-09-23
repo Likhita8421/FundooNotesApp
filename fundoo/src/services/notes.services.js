@@ -1,17 +1,26 @@
 import { _id } from '@hapi/joi/lib/base';
 import note from '../models/notes.models';
+import { client } from '../config/redis';
+import { cli } from 'winston/lib/winston/config';
 
 //get all note
 export const getAllNotes = async (userdetails) => {
   const data = await note.find({ userId: userdetails.userId });
-  return data;
+  if (data) {
+    await client.set('getAllData', JSON.stringify(data));
+    return data;
+
+  }
 };
 
 
 //create new note
 export const newNotes = async (body) => {
   const data = await note.create(body);
-  return data;
+  if (data) {
+    await client.del('getAllData');
+    return data;
+  }
 };
 
 //update a note
@@ -35,6 +44,7 @@ export const deleteNotes = async (_id) => {
   await note.findByIdAndDelete(
     {_id:_id, userId:_id.userId}
     );
+
   return '';
 };
 

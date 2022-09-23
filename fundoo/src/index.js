@@ -6,7 +6,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import swaggerUi from 'swagger-ui-express'; 
 import swaggerJSDoc from '../src/Swagger/Swagger.json';
-
+import redis from './config/redis';
 
 
 import routes from './routes';
@@ -35,6 +35,8 @@ app.use('/api-docs', swaggerUi.serve,swaggerUi.setup(swaggerJSDoc));
 
 
 database();
+redis();
+
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);

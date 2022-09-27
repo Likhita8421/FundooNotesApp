@@ -21,7 +21,7 @@ const noteSchema = new Schema(
         },
         userId: {
             type: String,
-            required: true
+            //required: true
         }
     },
     {

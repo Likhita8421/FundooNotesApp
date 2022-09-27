@@ -105,22 +105,22 @@ describe('User APIs Test', () => {
   });
 
 
-  //reset Password
-  describe('PUT /resetPwd', () => {
-    it('Given user mailId should check details and send mail with reset link', (done) => {
-      const userdetails = {
-        Password: 'priya123'
-      };
-      request(app)
-        .put(`/api/v1/users/resetPwd/${NewjwtToken}`)
-        .send(userdetails)
-        .set('authorization', `bearer ${NewjwtToken}`)
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(HttpStatus.OK);
-          done();
-        });
-    });
-  });
+  // //reset Password
+  // describe('PUT /resetPwd', () => {
+  //   it('Given user mailId should check details and send mail with reset link', (done) => {
+  //     const userdetails = {
+  //       Password: 'priya123'
+  //     };
+  //     request(app)
+  //       .put(`/api/v1/users/resetPwd/${NewjwtToken}`)
+  //       .send(userdetails)
+  //       .set('authorization', `bearer ${NewjwtToken}`)
+  //       .end((err, res) => {
+  //         expect(res.statusCode).to.be.equal(HttpStatus.OK);
+  //         done();
+  //       });
+  //   });
+  // });
 
 
   //Add New Note

@@ -3,6 +3,7 @@ import bcrypt from 'bcrypt';
 //import jwt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import * as utilsService from '../utils/user.util';
+import { sender } from '../config/rabbitmq';
 
 
 
@@ -23,9 +24,12 @@ export const newUser = async (body) => {
 
 
     const data = await User.create(body);
+    sender(data);
+    console.log("rabbitmq======> ", data)
     return data;
   }
 };
+
 
 //get login user
 export const checkLogin = async (userdetails) => {

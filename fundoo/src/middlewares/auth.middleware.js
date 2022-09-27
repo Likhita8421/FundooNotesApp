@@ -84,16 +84,44 @@ console.log("bearer token====> ", bearerToken)
 
 
 
+// /**
+//  * Middleware to authenticate if user has a valid Authorization token
+//  * Authorization: Bearer <token>
+//  *
+//  * @param {Object} req
+//  * @param {Object} res
+//  * @param {Function} next
+//  */
+//  export const LabelAuth = async (req, res, next) => {
+//   try {
+//     let bearerToken = req.header('Authorization');
 
+//     if (!bearerToken)
+//       throw {
+//         code: HttpStatus.BAD_REQUEST,
+//         message: 'Authorization token is required'
+//       };
 
-
-
-
-
-
-
-
-
+//     bearerToken = bearerToken.split(' ')[1];
+    
+//     await jwt.verify(bearerToken, process.env.SECRET_KEY,function(err,data) {
+//       if (err) {
+//         throw {
+//           code: HttpStatus.UNAUTHORIZED,
+//           message: 'Authorization token is Incorrect' 
+//         };
+//       }else {
+//         req.body.userId = data.EmailId
+//         next();
+//       }
+//     });
+//     //res.locals.user = user;
+//     //res.locals.token = bearerToken;
+    
+//   } catch (error) {
+//     next(error);
+//   }
+// };
 
 
 

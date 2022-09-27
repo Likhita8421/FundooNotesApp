@@ -1,11 +1,9 @@
-import { JSON } from 'express';
-
 const amqplib = require('amqplib/callback_api');
 
-const queue = 'userRegister';
+const queue = 'user Register';
 
 //Sender 
-export const sender = (data) => amqplib.connect('amqplib://localhost', (error, connection) => {
+export const sender = (data) => amqplib.connect('amqp://localhost', (error, connection) => {
 
   if (error) throw error;
   connection.createChannel((error, channel1) => {
@@ -13,14 +11,12 @@ export const sender = (data) => amqplib.connect('amqplib://localhost', (error, c
     channel1.assertQueue(queue);
     channel1.sendToQueue(queue, Buffer.from(JSON.stringify(data)));
     console.log(`Sending Message : ${data}`);
-
   });
 });
-sender();
 
 
 //Receiver 
-const receiver = () => amqplib.connect('amqplib://localhost', (error, connection) => {
+const receiver = () => amqplib.connect('amqp://localhost', (error, connection) => {
 
   if (error) throw error;
   connection.createChannel((error, channel2) => {
@@ -32,7 +28,7 @@ const receiver = () => amqplib.connect('amqplib://localhost', (error, connection
       if (data !== null) {
         const msg = (data.content);
        
-        console.log(`Receiver :  ${JSON.parse(msg)}`);
+        console.log("receiver--------", JSON.parse(msg));
         
         channel2.ack(data);
 
@@ -41,5 +37,5 @@ const receiver = () => amqplib.connect('amqplib://localhost', (error, connection
       }
     });
   });
-});
+}); 
 receiver();

@@ -101,7 +101,7 @@ export const deleteNotes = async (req, res, next) => {
 // Controller to archive note
 export const archiveNotes = async (req, res, next) => {
   try {
-    const data = await noteService.archiveNotes(req.params._id);
+    const data = await noteService.archiveNotes(req.params._id,req.body.userId);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
@@ -127,3 +127,100 @@ export const trashNotes = async (req, res, next) => {
     next(error);
   }
 };
+
+
+
+/**
+ * Controller to add label to note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+ export const addLabel = async (req, res, next) => {
+  try {
+      const data = await noteService.addLabel(req.params._id, req.body.LabelId);
+      res.status(HttpStatus.CREATED).json({
+          code: HttpStatus.CREATED,
+          data: data,
+          message: 'label added successfully'
+      });
+  } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          message: `${error}`
+      });
+  }
+};
+
+
+
+/**
+ * Controller to add label to note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const deleteLabel = async (req, res, next) => {
+  try {
+      const data = await noteService.deleteLabel(req.params._id, req.body.LabelId);
+      res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'label deleted successfully'
+      });
+  } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          message: `${error}`
+      });
+  }
+};
+
+
+/**
+ * Controller to add collaborater  to notes
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const addCollaborator = async (req, res, next) => {
+  try {
+    const data = await noteService.addCollaborator(req.params._id,req.body.Collaborators);
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'collaborator added successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
+
+
+/**
+ * Controller to add label to note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const deleteCollab = async (req, res, next) => {
+  try {
+      const data = await noteService.deleteCollab(req.params._id, req.body.Collaborators);
+      res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Collaborators deleted successfully'
+      });
+  } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          message: `${error}`
+      });
+  }
+};
+
+

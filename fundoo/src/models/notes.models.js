@@ -14,7 +14,8 @@ const noteSchema = new Schema(
             type: String,
         },
         isArchived: {
-            type: Boolean, default: false
+            type: Boolean,
+            default: false
         },
         isDeleted: {
             type: Boolean, default: false
@@ -22,7 +23,14 @@ const noteSchema = new Schema(
         userId: {
             type: String,
             //required: true
-        }
+        },
+
+        LabelId : [{ type: String
+        }],
+
+        Collaborators: [{
+            type: String, default:null}]
+        
     },
     {
         timestamps: true

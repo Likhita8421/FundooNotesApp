@@ -4,6 +4,7 @@ import { noteValidator } from '../validators/notes.validators';
 import { userAuth } from '../middlewares/auth.middleware';
 import { redisCheck } from '../middlewares/redis.middleware';
 
+
 const router = express.Router();
 
 //route to get all note
@@ -26,5 +27,17 @@ router.put('/:_id/archive/',userAuth, noteController.archiveNotes);
 
 //route to archive Note
 router.put('/:_id/trash/',userAuth, noteController.trashNotes);
+
+//route to add label from  note
+router.put('/:_id/addLabel', noteController.addLabel);
+
+//route to delete label from note
+router.put('/:_id/deleteLabel', noteController.deleteLabel);
+
+//route to add collaborator it note
+router.put('/:_id/addcollab', noteController.addCollaborator);
+
+//deleteCollab
+router.put('/:_id/deleteCollab', noteController.deleteCollab);
 
 export default router;
